@@ -1,0 +1,47 @@
+{
+  "completed_populations": 5,
+  "configuration": {
+    "epsilon_quantile": 0.5,
+    "max_attempts_per_population": 50000,
+    "max_populations": 5,
+    "minimum_kernel_scale_fraction": 0.01,
+    "n_particles": 500,
+    "n_pilot": 2000,
+    "random_seed": 42
+  },
+  "dataset": "synthetic SV data",
+  "epsilon_sequence": [
+    3.7164502281952654,
+    2.5257276748163404,
+    1.8252540231399883,
+    1.3990325091748304,
+    1.0851095333180298
+  ],
+  "final_acceptance_rate": 0.045351473922902494,
+  "final_ess": 468.52597592688477,
+  "final_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_smc_synthetic_sv_final.csv",
+  "history_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_smc_synthetic_sv_history.npz",
+  "method": "ABC-SMC with Manual summaries",
+  "random_seed": 42,
+  "runtime_seconds": 49.98318680000375,
+  "scale_invalid_simulations": 730,
+  "scale_seconds": 3.492215900005249,
+  "scale_seed": 202607,
+  "scale_simulations": 2000,
+  "scale_valid_simulations": 1270,
+  "stop_reason": "max_populations_reached",
+  "summary_scale": [
+    0.001160670742932686,
+    1.9474897543319583,
+    0.10057138384658634,
+    0.053929080924777474
+  ],
+  "summary_scale_method": "1.4826 times componentwise MAD from a fixed prior-predictive bank, with IQR/SD fallback",
+  "total_simulator_calls": 24006,
+  "total_simulator_calls_including_scale": 26006,
+  "true_parameters": {
+    "alpha": -0.5,
+    "beta": 0.95,
+    "sigma_eta": 0.3
+  }
+}

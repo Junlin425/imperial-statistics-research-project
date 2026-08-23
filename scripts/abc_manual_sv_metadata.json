@@ -1,0 +1,26 @@
+{
+  "acceptance_fraction": 0.05,
+  "accepted_count": 500,
+  "dataset": "S&P 500 log returns",
+  "effective_epsilon": 5.61166231814971,
+  "inference_seconds": 19.355291100000613,
+  "invalid_simulations": 3514,
+  "method": "Manual ABC",
+  "output_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_manual_sv.npy",
+  "random_seed": 42,
+  "scale_invalid_simulations": 730,
+  "scale_seconds": 4.009342599994852,
+  "scale_seed": 202607,
+  "scale_simulations": 2000,
+  "scale_valid_simulations": 1270,
+  "simulation_budget": 10000,
+  "summary_scale": [
+    0.0011384216428252142,
+    1.8775236128623032,
+    0.09217488388886363,
+    0.05658702686385909
+  ],
+  "summary_scale_method": "1.4826 times componentwise MAD from a fixed prior-predictive bank, with IQR/SD fallback",
+  "total_simulator_calls": 12000,
+  "valid_simulations": 6486
+}

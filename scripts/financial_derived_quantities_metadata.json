@@ -1,0 +1,30 @@
+{
+  "posterior_transformation": "draw_by_draw",
+  "method_order": [
+    "Manual ABC",
+    "Auto ABC",
+    "Wasserstein ABC",
+    "ABC-SMC"
+  ],
+  "true_parameters": [
+    -0.5,
+    0.95,
+    0.3
+  ],
+  "formulas": {
+    "long_run_log_variance": "alpha / (1 - beta)",
+    "half_life_days": "log(0.5) / log(beta)",
+    "stationary_log_volatility_variance": "sigma_eta^2 / (1 - beta^2)"
+  },
+  "summary_table": "F:\\Project\\Code\\stochastic financial model\\scripts\\financial_derived_quantities_summary.csv",
+  "synthetic_error_table": "F:\\Project\\Code\\stochastic financial model\\scripts\\financial_derived_quantities_errors.csv",
+  "figures": [
+    "F:\\Project\\Code\\stochastic financial model\\figures\\derived_synthetic_long_run_log_variance.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\derived_synthetic_half_life_days.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\derived_synthetic_stationary_log_volatility_variance.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\derived_real_long_run_log_variance.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\derived_real_half_life_days.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\derived_real_stationary_log_volatility_variance.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\derived_synthetic_relative_errors.png"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "acceptance_fraction": 0.05,
+  "accepted_count": 500,
+  "dataset": "synthetic SV data",
+  "distance_scaling": "robust scale of held-out validation predictions",
+  "effective_epsilon": 1.6207107033225354,
+  "feature_group": "full",
+  "invalid_simulations": 3507,
+  "method": "Auto ABC",
+  "model_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\rf_sv_summary.pkl",
+  "output_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_auto_synthetic_sv.npy",
+  "prediction_scale": [
+    0.4278445352277664,
+    0.01876403994727821,
+    0.14534225116149876
+  ],
+  "random_seed": 42,
+  "runtime_excludes_model_training": true,
+  "runtime_seconds": 22.167558799999824,
+  "simulation_budget": 10000,
+  "target_series_length": 4000,
+  "total_simulator_calls": 10000,
+  "training_series_length": 4000,
+  "true_parameters": {
+    "alpha": -0.5,
+    "beta": 0.95,
+    "sigma_eta": 0.3
+  },
+  "valid_simulations": 6493,
+  "prediction_scale_source": "held-out validation predictions"
+}

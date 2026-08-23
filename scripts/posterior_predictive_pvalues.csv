@@ -1,0 +1,17 @@
+Method,Statistic,Posterior Predictive p-value
+Manual ABC,Variance,0.384
+Manual ABC,Kurtosis,0.224
+Manual ABC,ACF1,0.013
+Manual ABC,ACF5,0.033
+Auto ABC,Variance,0.518
+Auto ABC,Kurtosis,0.369
+Auto ABC,ACF1,0.019
+Auto ABC,ACF5,0.054
+Wasserstein ABC,Variance,0.231
+Wasserstein ABC,Kurtosis,0.045
+Wasserstein ABC,ACF1,0.004
+Wasserstein ABC,ACF5,0.005
+ABC-SMC,Variance,0.378
+ABC-SMC,Kurtosis,0.332
+ABC-SMC,ACF1,0.021
+ABC-SMC,ACF5,0.053

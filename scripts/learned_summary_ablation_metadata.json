@@ -1,0 +1,68 @@
+{
+  "acceptance_fraction": 0.05,
+  "feature_groups": [
+    "marginal",
+    "temporal",
+    "full"
+  ],
+  "groups": {
+    "full": {
+      "accepted_count": 500,
+      "effective_epsilon": 1.6207107033225354,
+      "inference_seconds": 19.939490099997784,
+      "invalid_inference_simulations": 3507,
+      "invalid_simulations": 1744,
+      "model_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\rf_sv_summary_full.pkl",
+      "overall_test_r2": 0.7034927954995794,
+      "posterior_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_auto_ablation_full_synthetic.npy",
+      "test_rows": 652,
+      "total_seconds": 10.693153899999743,
+      "training_rows": 2604,
+      "training_seconds": 0.6343195000008564,
+      "valid_inference_simulations": 6493,
+      "valid_simulations": 3256
+    },
+    "marginal": {
+      "accepted_count": 500,
+      "effective_epsilon": 0.8686062248285688,
+      "inference_seconds": 20.04304830000183,
+      "invalid_inference_simulations": 3507,
+      "invalid_simulations": 1744,
+      "model_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\rf_sv_summary_marginal.pkl",
+      "overall_test_r2": 0.5574416826225798,
+      "posterior_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_auto_ablation_marginal_synthetic.npy",
+      "test_rows": 652,
+      "total_seconds": 10.367568299996492,
+      "training_rows": 2604,
+      "training_seconds": 0.5216250000012224,
+      "valid_inference_simulations": 6493,
+      "valid_simulations": 3256
+    },
+    "temporal": {
+      "accepted_count": 500,
+      "effective_epsilon": 1.1873306438648044,
+      "inference_seconds": 20.053777599998284,
+      "invalid_inference_simulations": 3507,
+      "invalid_simulations": 1744,
+      "model_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\rf_sv_summary_temporal.pkl",
+      "overall_test_r2": 0.39450336584910906,
+      "posterior_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_auto_ablation_temporal_synthetic.npy",
+      "test_rows": 652,
+      "total_seconds": 10.830882499998552,
+      "training_rows": 2604,
+      "training_seconds": 0.4039506000044639,
+      "valid_inference_simulations": 6493,
+      "valid_simulations": 3256
+    }
+  },
+  "inference_simulations": 10000,
+  "n_estimators": 300,
+  "random_seed": 42,
+  "training_series_length": 4000,
+  "training_simulations": 5000,
+  "true_parameters": [
+    -0.5,
+    0.95,
+    0.3
+  ]
+}

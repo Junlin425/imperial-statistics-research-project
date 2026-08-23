@@ -1,0 +1,237 @@
+{
+  "rejection_budgets": [
+    2000,
+    5000,
+    10000,
+    20000
+  ],
+  "rejection_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "acceptance_fraction": 0.05,
+  "shared_prefix_per_seed": true,
+  "shared_bank_across_rejection_methods": true,
+  "bank_runs": [
+    {
+      "seed": 0,
+      "valid_draws": 12925,
+      "invalid_draws": 7075,
+      "runtime_seconds": 46.81045460000314
+    },
+    {
+      "seed": 1,
+      "valid_draws": 13038,
+      "invalid_draws": 6962,
+      "runtime_seconds": 48.045646799997485
+    },
+    {
+      "seed": 2,
+      "valid_draws": 13141,
+      "invalid_draws": 6859,
+      "runtime_seconds": 47.365262500003155
+    },
+    {
+      "seed": 3,
+      "valid_draws": 13000,
+      "invalid_draws": 7000,
+      "runtime_seconds": 47.36935090000043
+    },
+    {
+      "seed": 4,
+      "valid_draws": 13074,
+      "invalid_draws": 6926,
+      "runtime_seconds": 46.88042129999667
+    },
+    {
+      "seed": 5,
+      "valid_draws": 12944,
+      "invalid_draws": 7056,
+      "runtime_seconds": 47.00587950000045
+    },
+    {
+      "seed": 6,
+      "valid_draws": 12887,
+      "invalid_draws": 7113,
+      "runtime_seconds": 46.811325099995884
+    },
+    {
+      "seed": 7,
+      "valid_draws": 13113,
+      "invalid_draws": 6887,
+      "runtime_seconds": 47.24283519999881
+    },
+    {
+      "seed": 8,
+      "valid_draws": 12999,
+      "invalid_draws": 7001,
+      "runtime_seconds": 46.974564099997224
+    },
+    {
+      "seed": 9,
+      "valid_draws": 13014,
+      "invalid_draws": 6986,
+      "runtime_seconds": 46.892156399997475
+    }
+  ],
+  "learned_summary_training_calls": 5000,
+  "scale_simulations": 2000,
+  "scale_seed": 202607,
+  "scale_valid_draws": 1270,
+  "scale_invalid_draws": 730,
+  "summary_scale": [
+    0.001160670742932686,
+    1.9474897543319583,
+    0.10057138384658634,
+    0.053929080924777474
+  ],
+  "smc_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "smc_configuration": {
+    "n_particles": 500,
+    "n_pilot": 2000,
+    "max_populations": 5,
+    "epsilon_quantile": 0.5,
+    "max_attempts_per_population": 50000,
+    "random_seed": 42,
+    "minimum_kernel_scale_fraction": 0.01
+  },
+  "smc_diagnostics": [
+    {
+      "seed": 0,
+      "completed_populations": 5,
+      "total_simulator_calls": 22533,
+      "runtime_seconds": 49.83159439999872,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 467.9796613627169,
+      "final_epsilon": 1.1080475644776806
+    },
+    {
+      "seed": 1,
+      "completed_populations": 5,
+      "total_simulator_calls": 25187,
+      "runtime_seconds": 54.82739720000245,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 471.13559420280853,
+      "final_epsilon": 1.0644719896546373
+    },
+    {
+      "seed": 2,
+      "completed_populations": 5,
+      "total_simulator_calls": 26804,
+      "runtime_seconds": 58.706666900005075,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 462.4208643701448,
+      "final_epsilon": 1.0367736100196696
+    },
+    {
+      "seed": 3,
+      "completed_populations": 5,
+      "total_simulator_calls": 24219,
+      "runtime_seconds": 53.336940400004096,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 478.33791238582285,
+      "final_epsilon": 1.0909637111210158
+    },
+    {
+      "seed": 4,
+      "completed_populations": 5,
+      "total_simulator_calls": 25036,
+      "runtime_seconds": 54.6597963000022,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 471.3658151807039,
+      "final_epsilon": 1.0687927635571137
+    },
+    {
+      "seed": 5,
+      "completed_populations": 5,
+      "total_simulator_calls": 24876,
+      "runtime_seconds": 54.53140350000467,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 468.0349241063717,
+      "final_epsilon": 1.070225667225181
+    },
+    {
+      "seed": 6,
+      "completed_populations": 5,
+      "total_simulator_calls": 26956,
+      "runtime_seconds": 58.87378510000417,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 465.4567873810496,
+      "final_epsilon": 1.0117238076301245
+    },
+    {
+      "seed": 7,
+      "completed_populations": 5,
+      "total_simulator_calls": 24823,
+      "runtime_seconds": 53.93242310000642,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 467.22659573697763,
+      "final_epsilon": 1.0710008214063327
+    },
+    {
+      "seed": 8,
+      "completed_populations": 5,
+      "total_simulator_calls": 27113,
+      "runtime_seconds": 58.72755429999961,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 477.0613115857695,
+      "final_epsilon": 1.0434002577301822
+    },
+    {
+      "seed": 9,
+      "completed_populations": 5,
+      "total_simulator_calls": 25043,
+      "runtime_seconds": 52.59687500000291,
+      "stop_reason": "max_populations_reached",
+      "final_ess": 481.21865615580435,
+      "final_epsilon": 1.0584125724800457
+    }
+  ],
+  "observed_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\synthetic_sv_returns.npy",
+  "true_parameters": [
+    -0.5,
+    0.95,
+    0.3
+  ],
+  "model_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\rf_sv_summary.pkl",
+  "python_version": "3.12.13",
+  "sklearn_version": "1.9.0",
+  "tables": [
+    "F:\\Project\\Code\\stochastic financial model\\scripts\\fixed_budget_raw_results.csv",
+    "F:\\Project\\Code\\stochastic financial model\\scripts\\fixed_budget_summary.csv",
+    "F:\\Project\\Code\\stochastic financial model\\scripts\\fixed_budget_final_comparison.csv"
+  ],
+  "figures": [
+    "F:\\Project\\Code\\stochastic financial model\\figures\\fixed_budget_alpha.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\fixed_budget_beta.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\fixed_budget_sigma_eta.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\fixed_budget_long_run_log_variance.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\fixed_budget_half_life_days.png",
+    "F:\\Project\\Code\\stochastic financial model\\figures\\fixed_budget_stationary_log_volatility_variance.png"
+  ],
+  "method_order": [
+    "Manual ABC",
+    "Auto ABC",
+    "Wasserstein ABC",
+    "ABC-SMC"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "distance_scaling": "robust scale of held-out validation predictions",
+  "feature_group": "full",
+  "feature_names": [
+    "variance",
+    "standard_deviation",
+    "mean_absolute_return",
+    "kurtosis",
+    "quantile_01",
+    "quantile_05",
+    "quantile_25",
+    "quantile_50",
+    "quantile_75",
+    "quantile_95",
+    "quantile_99",
+    "squared_acf_1",
+    "squared_acf_2",
+    "squared_acf_3",
+    "squared_acf_5",
+    "squared_acf_10"
+  ],
+  "invalid_simulations": 1744,
+  "method": "Random-forest learned summary",
+  "metrics_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\auto_summary_validation_metrics.csv",
+  "model_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\rf_sv_summary.pkl",
+  "n_estimators": 300,
+  "prediction_scale": [
+    0.4278445352277664,
+    0.01876403994727821,
+    0.14534225116149876
+  ],
+  "random_seed": 42,
+  "total_seconds": 10.629352600000857,
+  "training_rows": 2604,
+  "training_seconds": 0.743582700000843,
+  "training_series_length": 4000,
+  "training_simulations": 5000,
+  "valid_simulations": 3256,
+  "prediction_scale_source": "held-out validation predictions",
+  "validation_rows": 652,
+  "overall_validation_r2": 0.7034927954995793
+}

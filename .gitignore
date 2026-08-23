@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Old local backups are not part of the reproducible project.
+archive/
+
+# Local environments and editor settings.
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Operating-system files.
+.DS_Store
+Thumbs.db

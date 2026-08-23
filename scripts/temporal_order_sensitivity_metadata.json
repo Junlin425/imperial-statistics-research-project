@@ -1,0 +1,68 @@
+{
+  "auto_feature_group": "full",
+  "auto_model_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\rf_sv_summary.pkl",
+  "block_lengths": [
+    1,
+    5,
+    20,
+    100
+  ],
+  "block_permutation_definition": "consecutive blocks are kept intact and their order is randomly shuffled",
+  "datasets": {
+    "sp500": {
+      "counts": {
+        "invalid": 719,
+        "random_seed": 202608,
+        "requested": 2000,
+        "valid": 1281
+      },
+      "observed_manual_summary": {
+        "kurtosis": 16.19767992397794,
+        "squared_acf_1": 0.45553741364152417,
+        "squared_acf_5": 0.30602680022835566,
+        "variance": 0.00011852881689568235
+      },
+      "permutation_seed": 43,
+      "scale": [
+        0.0012190994552736564,
+        1.8560442930432093,
+        0.09426116573379213,
+        0.05558618517803959
+      ],
+      "series_length": 3773
+    },
+    "synthetic": {
+      "counts": {
+        "invalid": 730,
+        "random_seed": 202607,
+        "requested": 2000,
+        "valid": 1270
+      },
+      "observed_manual_summary": {
+        "kurtosis": 5.50571639422831,
+        "squared_acf_1": 0.21489591168975294,
+        "squared_acf_5": 0.17004881288023194,
+        "variance": 7.947909960027778e-05
+      },
+      "permutation_seed": 42,
+      "scale": [
+        0.001160670742932686,
+        1.9474897543319583,
+        0.10057138384658634,
+        0.053929080924777474
+      ],
+      "series_length": 4000
+    }
+  },
+  "manual_scale_simulations": 2000,
+  "methods": [
+    "Manual ABC",
+    "Auto ABC",
+    "Wasserstein ABC"
+  ],
+  "permutations_per_block_length": 100,
+  "posterior_shift_experiment": "not run; distance response is the primary test",
+  "relative_distance_definition": "mean distance divided by the largest mean distance for each dataset and method; zero when all distances are numerical zero",
+  "runtime_seconds": 8.95368949999829,
+  "wasserstein_expectation": "zero because every permutation contains the same return values"
+}

@@ -1,0 +1,25 @@
+target,method,wins,datasets,win_rate
+alpha,Manual ABC,2,30,0.06666666666666667
+alpha,Auto ABC,14,30,0.4666666666666667
+alpha,Wasserstein ABC,8,30,0.26666666666666666
+alpha,ABC-SMC,6,30,0.2
+beta,Manual ABC,3,30,0.1
+beta,Auto ABC,14,30,0.4666666666666667
+beta,Wasserstein ABC,5,30,0.16666666666666666
+beta,ABC-SMC,8,30,0.26666666666666666
+sigma_eta,Manual ABC,7,30,0.23333333333333334
+sigma_eta,Auto ABC,7,30,0.23333333333333334
+sigma_eta,Wasserstein ABC,16,30,0.5333333333333333
+sigma_eta,ABC-SMC,0,30,0.0
+long_run_log_variance,Manual ABC,0,30,0.0
+long_run_log_variance,Auto ABC,5,30,0.16666666666666666
+long_run_log_variance,Wasserstein ABC,25,30,0.8333333333333334
+long_run_log_variance,ABC-SMC,0,30,0.0
+half_life_days,Manual ABC,6,30,0.2
+half_life_days,Auto ABC,15,30,0.5
+half_life_days,Wasserstein ABC,0,30,0.0
+half_life_days,ABC-SMC,9,30,0.3
+stationary_log_volatility_variance,Manual ABC,7,30,0.23333333333333334
+stationary_log_volatility_variance,Auto ABC,12,30,0.4
+stationary_log_volatility_variance,Wasserstein ABC,7,30,0.23333333333333334
+stationary_log_volatility_variance,ABC-SMC,4,30,0.13333333333333333

@@ -1,0 +1,14 @@
+{
+  "acceptance_fraction": 0.05,
+  "accepted_count": 500,
+  "dataset": "S&P 500 log returns",
+  "effective_epsilon": 0.0020975340674876533,
+  "invalid_simulations": 3514,
+  "method": "Wasserstein ABC",
+  "output_file": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_wasserstein_sv.npy",
+  "random_seed": 42,
+  "runtime_seconds": 21.514982900000177,
+  "simulation_budget": 10000,
+  "total_simulator_calls": 10000,
+  "valid_simulations": 6486
+}

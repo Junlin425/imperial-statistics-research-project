@@ -1,0 +1,70 @@
+{
+  "generated_at_utc": "2026-08-09T01:18:00.152915+00:00",
+  "seed": 42,
+  "replications_per_method": 1000,
+  "runtime_seconds": 9.412302299999283,
+  "statistics": [
+    "Variance",
+    "Kurtosis",
+    "ACF1",
+    "ACF5"
+  ],
+  "temporal_lags": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "methods": [
+    "Manual ABC",
+    "Auto ABC",
+    "Wasserstein ABC",
+    "ABC-SMC"
+  ],
+  "sampling_rules": {
+    "Manual ABC": "uniform",
+    "Auto ABC": "uniform",
+    "Wasserstein ABC": "uniform",
+    "ABC-SMC": "importance-weighted"
+  },
+  "posterior_predictive_pvalue_definition": "Pr(T(y_rep) >= T(y_obs) | y_obs)",
+  "acf_rmse_definition": "Root mean squared gap across squared-return ACF lags 1 to 20",
+  "inputs": {
+    "observed_returns": {
+      "path": "F:\\Project\\Code\\stochastic financial model\\data\\processed\\sp500_returns.csv",
+      "last_modified_utc": "2026-06-04T03:18:12.014407+00:00"
+    },
+    "Manual ABC": {
+      "path": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_manual_sv.npy",
+      "last_modified_utc": "2026-08-09T00:20:52.563877+00:00"
+    },
+    "Auto ABC": {
+      "path": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_auto_sv.npy",
+      "last_modified_utc": "2026-08-09T00:20:50.778479+00:00"
+    },
+    "Wasserstein ABC": {
+      "path": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_wasserstein_sv.npy",
+      "last_modified_utc": "2026-08-09T00:20:50.701461+00:00"
+    },
+    "ABC-SMC": {
+      "path": "F:\\Project\\Code\\stochastic financial model\\scripts\\abc_smc_sv_final.csv",
+      "last_modified_utc": "2026-08-09T00:21:42.135431+00:00"
+    }
+  }
+}
