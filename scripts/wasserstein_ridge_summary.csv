@@ -1,0 +1,2 @@
+n_draws,mean_alpha,mean_beta,mean_sigma_eta,alpha_beta_correlation,mean_long_run_log_variance,median_long_run_log_variance,q025_long_run_log_variance,q975_long_run_log_variance,true_long_run_log_variance,absolute_mu_h_error
+500,-0.9945325353299084,0.8987949362741177,0.27641207959100855,0.9952990293174777,-9.8323612565565,-9.833467729580917,-10.408955632070334,-9.301908326003522,-10.0,0.16763874344350072

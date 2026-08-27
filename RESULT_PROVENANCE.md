@@ -16,6 +16,9 @@ This file links the report evidence to the code and saved outputs.
 | Repeated regimes | `31_repeated_synthetic_regime_study.py` | `repeated_regime_*.csv`, `repeated_regime_posteriors.npz` |
 | Simulator-cost comparison | `32_fixed_budget_study.py` | `fixed_budget_*.csv`, `fixed_budget_metadata.json` |
 | Validity and block audit | `33_refresh_reporting_outputs.py` | `simulation_validity_summary.csv`, `repeated_regime_block_comparisons.csv` |
+| Scaled single-series errors | `34_supervisor_revision_diagnostics.py` | `synthetic_scaled_error_table.csv` |
+| Induced prior under numerical validity | `34_supervisor_revision_diagnostics.py` | `induced_prior_draws.csv`, `induced_prior_summary.csv`, `supervisor_revision_metadata.json` |
+| Wasserstein alpha-beta ridge | `34_supervisor_revision_diagnostics.py` | `wasserstein_ridge_summary.csv`, `figures/wasserstein_alpha_beta_ridge.png` |
 
 The separate report figures are stored in the repository's `figures` folder.
 In the original thesis workspace, script `27_export_thesis_figures.py` also

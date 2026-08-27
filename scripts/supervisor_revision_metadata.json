@@ -1,0 +1,22 @@
+{
+  "n_prior_draws": 20000,
+  "series_length": 4000,
+  "random_seed": 20260827,
+  "valid_draws": 12957,
+  "invalid_draws": 7043,
+  "invalid_fraction": 0.35215,
+  "validity_interpretation": "The effective parameter distribution is proportional to the nominal prior times the probability of a numerically valid series.",
+  "wasserstein_ridge": {
+    "n_draws": 500,
+    "mean_alpha": -0.9945325353299084,
+    "mean_beta": 0.8987949362741177,
+    "mean_sigma_eta": 0.27641207959100855,
+    "alpha_beta_correlation": 0.9952990293174777,
+    "mean_long_run_log_variance": -9.8323612565565,
+    "median_long_run_log_variance": -9.833467729580917,
+    "q025_long_run_log_variance": -10.408955632070334,
+    "q975_long_run_log_variance": -9.301908326003522,
+    "true_long_run_log_variance": -10.0,
+    "absolute_mu_h_error": 0.16763874344350072
+  }
+}
